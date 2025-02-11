@@ -1,0 +1,41 @@
+# Archivos de compilación
+bin/
+obj/
+out/
+
+# Configuración de usuario (Visual Studio, Rider, VS Code)
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Dependencias y paquetes
+packages/
+*.nupkg
+project.lock.json
+project.assets.json
+global.json
+.nuget/
+
+# Logs y cachés
+*.log
+*.vs/
+TestResults/
+coverage/
+node_modules/
+
+# Configuración de entorno y seguridad
+.env
+secrets.json
+appsettings.*.json
+appsettings.Development.json
+
+# Archivos de depuración
+*.pdb
+*.mdb
+
+# Publicación y despliegue
+publish/
+wwwroot/
